@@ -1,1 +1,2 @@
-# AwesomeMiner-Linux-Agent
+# AwesomeMiner Linux Agent
+Auto installer package.
