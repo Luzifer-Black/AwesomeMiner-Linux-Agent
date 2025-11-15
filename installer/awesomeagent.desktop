@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=AwesomeAgent
+Exec=/usr/bin/env /opt/awesomeagent/.venv/bin/python3 /opt/awesomeagent/gui/main.py
+Icon=/opt/awesomeagent/icons/logo_64.png
+Type=Application
+Categories=Utility;
+Terminal=false

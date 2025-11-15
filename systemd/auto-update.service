@@ -1,0 +1,6 @@
+[Unit]
+Description=AwesomeAgent Auto-Update Service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/awesomeagent/scripts/auto_update.sh

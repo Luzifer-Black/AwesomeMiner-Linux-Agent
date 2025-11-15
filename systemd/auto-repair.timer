@@ -1,0 +1,9 @@
+[Unit]
+Description=AwesomeAgent Auto-Repair Timer
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target

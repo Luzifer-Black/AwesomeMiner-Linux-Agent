@@ -1,0 +1,14 @@
+[Unit]
+Description=AwesomeAgent Backend
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/awesomeagent/.venv/bin/python3 /opt/awesomeagent/backend/main_api.py
+Restart=always
+User=awesomeagent
+Group=awesomeagent
+Environment=AWESOMEAGENT_API_KEY=change_me
+
+[Install]
+WantedBy=multi-user.target
