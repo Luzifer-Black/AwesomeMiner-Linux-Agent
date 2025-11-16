@@ -1,6 +1,0 @@
-[Unit]
-Description=AwesomeAgent Auto-Repair Service
-
-[Service]
-Type=oneshot
-ExecStart=/opt/awesomeagent/scripts/auto_repair.sh
